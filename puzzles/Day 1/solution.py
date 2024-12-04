@@ -20,4 +20,4 @@ df = pd.DataFrame({'l1':l1,
                    'l2':l2}) 
 df['distance'] = abs(df['l1'] - df['l2'])
 
-print("Solution : ", df['distance'].sum())
+print("Solution pt. 1 : ", df['distance'].sum())
